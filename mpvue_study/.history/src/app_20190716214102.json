@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/moviesDetail/main",
+    "pages/movies/main",
+    "pages/list/main",
+    "pages/detail/main",
+    "pages/index/main"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#489B81"
+  },
+  "tabBar": {
+    "postion": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/list/main",
+        "text": "文与字",
+        "iconPath": "/static/images/tab/yuedu.png"
+      },
+      {
+        "pagePath": "pages/movies/main",
+        "text": "电影频道",
+        "iconPath": "/static/images/tab/dianying.png"
+      }
+    ]
+  }
+}

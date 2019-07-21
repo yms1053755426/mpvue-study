@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/movies/main",
+    "pages/movieDetail/main",
+    "pages/weuidemo/main",
+    "pages/list/main",
+    "pages/detail/main",
+    "pages/index/main"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#489B81"
+  },
+  "tabBar": {
+    "postion": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/list/main",
+        "text": "文与字",
+        "iconPath": "/static/images/tab/yuedu.png"
+      },
+      {
+        "pagePath": "pages/weuidemo/main",
+        "text": "电影频道",
+        "iconPath": "/static/images/tab/dianying.png"
+      },
+      {
+        "pagePath": "pages/weuidemo/main",
+        "text": "实例",
+        "iconPath": "/static/images/tab/dianying.png"
+      }
+    ]
+  }
+}
